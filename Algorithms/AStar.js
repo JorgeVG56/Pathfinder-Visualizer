@@ -10,7 +10,7 @@ p5.prototype.AStar = class {
     let priorityQueue = [];
     
     let cost = 0;
-    let heuristic = (abs(start.x - Global.grid.endCell.x) + abs(start.y - Global.grid.endCell.y)) * 10;
+    let heuristic = this.calcHeuristic(start.x, start.y);
     let total = cost + heuristic;
     
     steps.push([start, 'waiting', total, cost, heuristic]);
