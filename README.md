@@ -8,7 +8,7 @@ To use you must select one of the four Search Algorithms:
 - A*: Uses distance from the start plus a heuristic to the goal. It guarantees the shortest path (with a good heuristic) and is usually faster.
 
 Also you need to have a start and end in the grid. 
-You can paint the grid using the selector in the left. There are four types of cells:
+You can paint the grid using the selector and **Left-click**. There are four types of cells:
 - Start: The start of the search algorithm.
 - End: The goal the algorithm want to reach.
 - Wall: A cell you cannot go trought
