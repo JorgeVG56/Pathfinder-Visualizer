@@ -55,12 +55,12 @@ p5.prototype.App = class {
   }
   
   onRowsChange(input){
-    Global.rows = int(input.value());
+    Global.rows = min(25, int(input.value()));
     Global.app.restart();
   }
   
   onColumnsChange(input){
-    Global.columns = int(input.value());
+    Global.columns = min(25, int(input.value()));
     Global.app.restart();
   }
   
