@@ -23,6 +23,6 @@ If you are choosing the A* algorithm, there are three heuristic calculation (dx 
 
 To start the search, press the start button and a animation will start. If you want to see step by step, check the **Step by Step** option and press the **Next Step** button. Uncheck the **Step by Step** box and press **Next Step** to go back to normal animation.
 
-**Why A* checks fewer cells than BFS**
+**Why A\* checks fewer cells than BFS**
 
 BFS explores evenly in all directions. A* uses a heuristic to move toward the goal, so it avoids exploring unnecessary cells.
